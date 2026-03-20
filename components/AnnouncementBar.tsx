@@ -39,7 +39,7 @@ export default function AnnouncementBar() {
         style={{
           opacity: visible ? 1 : 0,
           transition: "opacity 300ms",
-          fontSize: "0.875rem",
+          fontSize: "0.625rem",
           letterSpacing: "0.15em",
         }}
       >
