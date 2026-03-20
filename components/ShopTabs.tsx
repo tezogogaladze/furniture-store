@@ -94,7 +94,7 @@ export default function ShopTabs() {
                   activeTab === tab
                     ? "1px solid var(--fg)"
                     : "1px solid transparent",
-                fontSize: "0.8rem",
+                fontSize: "0.9rem",
               }}
             >
               {tab === "furniture" ? "ავეჯი" : "ოთახები"}

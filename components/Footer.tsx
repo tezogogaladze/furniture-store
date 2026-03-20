@@ -119,7 +119,7 @@ export default function Footer() {
             <div key={col.title} className="footer-col">
               <h4
                 className="label-geo"
-                style={{ fontSize: "0.75rem", color: "var(--color-clay)" }}
+                style={{ fontSize: "0.875rem", color: "var(--color-clay)" }}
               >
                 {col.title}
               </h4>

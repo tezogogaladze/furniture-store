@@ -93,7 +93,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
                   >
                     <button
                       className="label-geo py-4 transition-opacity duration-300 hover:opacity-50"
-                      style={{ fontSize: "0.8rem" }}
+                      style={{ fontSize: "0.9rem" }}
                     >
                       {item.label}
                     </button>
@@ -104,7 +104,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
                     <a
                       href={item.href}
                       className="label-geo py-4 transition-opacity duration-300 hover:opacity-50"
-                      style={{ fontSize: "0.8rem" }}
+                      style={{ fontSize: "0.9rem" }}
                     >
                       {item.label}
                     </a>

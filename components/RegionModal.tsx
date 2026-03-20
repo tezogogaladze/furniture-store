@@ -72,7 +72,7 @@ export default function RegionModal({ open, onClose }: RegionModalProps) {
             style={{
               background: "var(--fg)",
               color: "var(--bg)",
-              fontSize: "0.75rem",
+              fontSize: "0.875rem",
             }}
           >
             გადასვლა GE საიტზე
@@ -82,7 +82,7 @@ export default function RegionModal({ open, onClose }: RegionModalProps) {
             className="label-geo flex-1 rounded-sm py-3 transition-opacity duration-300 hover:opacity-60"
             style={{
               border: "1px solid var(--color-earth-border)",
-              fontSize: "0.75rem",
+              fontSize: "0.875rem",
             }}
           >
             დარჩი US საიტზე
