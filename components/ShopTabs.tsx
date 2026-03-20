@@ -129,10 +129,15 @@ export default function ShopTabs() {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/10" />
-                <div className="relative flex h-full items-end p-4">
+                <div className="relative flex h-full items-end p-5">
                   <span
-                    className="label-geo"
-                    style={{ fontSize: "0.625rem", color: "#fff", textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}
+                    className="heading"
+                    style={{
+                      fontSize: "clamp(1.3rem, 2.5vw, 1.8rem)",
+                      color: "#fff",
+                      textShadow: "0 2px 12px rgba(0,0,0,0.5)",
+                      lineHeight: 1.1,
+                    }}
                   >
                     {cat.name}
                   </span>
