@@ -84,7 +84,7 @@ export default function SearchOverlay({ open, onClose }: SearchOverlayProps) {
           <button
             onClick={onClose}
             className="label-geo shrink-0 transition-opacity duration-300 hover:opacity-50"
-            style={{ fontSize: "0.625rem", color: "var(--color-clay)" }}
+            style={{ fontSize: "0.75rem", color: "var(--color-clay)" }}
           >
             დახურვა
           </button>

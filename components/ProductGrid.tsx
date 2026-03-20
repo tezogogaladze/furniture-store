@@ -62,7 +62,7 @@ export default function ProductGrid() {
                   className="label-geo"
                   style={{
                     color: "var(--color-earth-muted)",
-                    fontSize: "0.625rem",
+                    fontSize: "0.75rem",
                   }}
                 >
                   {product.price}
