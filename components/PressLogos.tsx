@@ -21,10 +21,7 @@ export default function PressLogos() {
     <section
       ref={ref}
       className="section-gallery px-6"
-      style={{
-        borderTop: "1px solid var(--color-earth-border)",
-        borderBottom: "1px solid var(--color-earth-border)",
-      }}
+      style={{ background: "var(--color-sand-light)" }}
     >
       <div className="site-container">
         <span

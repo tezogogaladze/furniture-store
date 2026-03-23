@@ -46,8 +46,8 @@ export default function TrustRow() {
       ref={ref}
       className="section-gallery px-6"
       style={{
-        borderTop: "1px solid var(--color-earth-border)",
-        borderBottom: "1px solid var(--color-earth-border)",
+        background: "var(--color-olive)",
+        color: "#f5efe6",
       }}
     >
       <div className="site-container">
@@ -56,7 +56,7 @@ export default function TrustRow() {
             <div key={item.title} className="trust-item text-center">
               <div
                 className="mx-auto mb-5 flex items-center justify-center"
-                style={{ color: "var(--color-terracotta)" }}
+                style={{ color: "rgba(245,239,230,0.7)" }}
               >
                 {item.icon}
               </div>
@@ -73,7 +73,7 @@ export default function TrustRow() {
                 className="mt-2"
                 style={{
                   fontSize: "0.875rem",
-                  color: "var(--color-earth-muted)",
+                  color: "rgba(245,239,230,0.7)",
                 }}
               >
                 {item.description}

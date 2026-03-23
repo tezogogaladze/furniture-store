@@ -36,7 +36,7 @@ export default function Testimonials() {
   });
 
   return (
-    <section ref={ref} className="section-gallery px-6">
+    <section ref={ref} className="section-gallery px-6" style={{ background: "var(--color-cream)" }}>
       <div className="site-container">
         <div className="mb-14 text-center">
           <span className="label-geo" style={{ color: "var(--color-clay)" }}>
@@ -62,7 +62,7 @@ export default function Testimonials() {
               style={{
                 width: 360,
                 scrollSnapAlign: "start",
-                background: "var(--color-cream)",
+                background: "var(--color-sand-light)",
               }}
             >
               <div>

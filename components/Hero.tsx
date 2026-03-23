@@ -111,7 +111,7 @@ export default function Hero() {
           className="label-geo inline-block"
           style={{ color: "rgba(255,255,255,0.7)", opacity: 0 }}
         >
-          დაარსდა 2017 &mdash; დიდი დიღომი, თბილისი
+          დაარსდა 2017 &mdash; თბილისი
         </span>
 
         <h1

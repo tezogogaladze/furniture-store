@@ -43,7 +43,11 @@ export default function EditorialBlock() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-gallery px-6">
+    <section
+      ref={sectionRef}
+      className="section-gallery px-6"
+      style={{ background: "var(--color-earth-dark)", color: "#eee6d8" }}
+    >
       <div className="site-container grid-editorial">
         <div
           ref={imageRef}
@@ -74,7 +78,7 @@ export default function EditorialBlock() {
           <p
             className="mt-5"
             style={{
-              color: "var(--color-earth-muted)",
+              color: "var(--color-clay)",
               lineHeight: 1.8,
               maxWidth: 440,
             }}
@@ -90,7 +94,7 @@ export default function EditorialBlock() {
               href="#"
               className="label-geo inline-block transition-opacity duration-300 hover:opacity-50"
               style={{
-                borderBottom: "1px solid var(--fg)",
+                borderBottom: "1px solid rgba(238,230,216,0.5)",
                 paddingBottom: 3,
                 letterSpacing: "0.15em",
               }}

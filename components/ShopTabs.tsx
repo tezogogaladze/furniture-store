@@ -64,7 +64,7 @@ export default function ShopTabs() {
     activeTab === "furniture" ? furnitureCategories : roomCategories;
 
   return (
-    <section ref={sectionRef} className="section-gallery px-6">
+    <section ref={sectionRef} className="section-gallery px-6" style={{ background: "var(--color-sand-light)" }}>
       <div className="site-container">
         <div className="text-center">
           <span className="label-geo" style={{ color: "var(--color-clay)" }}>

@@ -37,7 +37,11 @@ export default function Marquee() {
   const ref = useScrollReveal<HTMLElement>();
 
   return (
-    <section ref={ref} className="section-gallery">
+    <section
+      ref={ref}
+      className="section-gallery"
+      style={{ background: "var(--color-earth-dark)", color: "#eee6d8" }}
+    >
       <div className="mb-12 text-center">
         <span className="label-geo" style={{ color: "var(--color-clay)" }}>
           გამოცდილება
