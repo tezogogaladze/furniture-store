@@ -78,7 +78,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
       >
         <nav className="site-container flex h-16 items-center justify-between px-6">
           <a href="/" className="heading" style={{ fontSize: "1.6rem" }}>
-            ავიეჯი
+          WoodSon Georgia • ვუდსონ ჯორჯია
           </a>
 
           {!isMobile && (
