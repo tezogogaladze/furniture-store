@@ -78,7 +78,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
       >
         <nav className="site-container flex h-16 items-center justify-between px-6">
           <a href="/" className="heading" style={{ fontSize: "1.6rem" }}>
-            ვუდსონ ჯორჯია
+            შინა - ავეჯის მაღაზია
           </a>
 
           {!isMobile && (
