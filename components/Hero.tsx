@@ -133,9 +133,9 @@ export default function Hero() {
             color: "#fff",
           }}
         >
-          დახვეწილი ავეჯი,
+          თქვენი სახლი
           <br />
-          შექმნილი ნამდვილი ცხოვრებისთვის.
+          იწყება სწორად შერჩეული ავეჯით.
         </h1>
 
         <div ref={ctaRef} className="mt-10" style={{ opacity: 0 }}>
