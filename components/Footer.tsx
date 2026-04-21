@@ -61,7 +61,7 @@ export default function Footer() {
                 </span>
                 <span style={{ fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
                 <span style={{ fontFamily: "'Nunito', sans-serif", fontSize: "1.25rem", letterSpacing: "0.03em", fontWeight: 800 }}>
-                  Casa Tua
+                  CASA TUA
                 </span>
               </span>
             </div>
