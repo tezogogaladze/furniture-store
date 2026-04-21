@@ -56,14 +56,8 @@ export default function Footer() {
           <div className="footer-col">
             <div className="flex items-center gap-2">
               <img src="/logo.png" alt="Casa Tua logo" style={{ height: 48, width: "auto", filter: "invert(1)" }} />
-              <span style={{ display: "flex", alignItems: "baseline", gap: "0.35rem" }}>
-                <span style={{ fontFamily: "'Dachi Lynx', 'AR Archy', serif", fontSize: "1.1rem", letterSpacing: "0.02em" }}>
-                  კაზა ტუა
-                </span>
-                <span style={{ opacity: 0.3, fontFamily: "'Josefin Sans', sans-serif", fontSize: "0.85rem", fontWeight: 600 }}>·</span>
-                <span style={{ fontFamily: "'Josefin Sans', sans-serif", fontSize: "0.95rem", letterSpacing: "0.12em", fontWeight: 700 }}>
-                  CASA TUA
-                </span>
+              <span style={{ fontFamily: "'Dachi Lynx', 'AR Archy', serif", fontSize: "1.1rem", letterSpacing: "0.02em" }}>
+                კაზა ტუა
               </span>
             </div>
             <p
