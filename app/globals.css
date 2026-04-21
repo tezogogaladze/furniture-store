@@ -1,5 +1,13 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap");
+
+@font-face {
+  font-family: "Dachi Lynx";
+  src: url("/fonts/dachi-lynx.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "AR Archy";

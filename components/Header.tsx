@@ -92,24 +92,26 @@ export default function Header({ onSearchOpen }: HeaderProps) {
                 transition: "filter 500ms var(--ease-cinematic)",
               }}
             />
-            <span style={{ display: "flex", alignItems: "baseline", gap: "0.4rem" }}>
+            <span style={{ display: "flex", alignItems: "baseline", gap: "0.35rem" }}>
               <span
-                className="heading"
-                style={{ fontSize: "1.65rem", letterSpacing: "0.02em" }}
+                style={{
+                  fontFamily: "'Dachi Lynx', 'AR Archy', serif",
+                  fontSize: "1.1rem",
+                  letterSpacing: "0.02em",
+                }}
               >
                 კაზა ტუა
               </span>
-              <span style={{ opacity: 0.3, fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: "1.3rem", fontWeight: 300 }}>·</span>
+              <span style={{ opacity: 0.3, fontFamily: "'Josefin Sans', sans-serif", fontSize: "0.85rem", fontWeight: 600 }}>·</span>
               <span
                 style={{
-                  fontFamily: "'Cormorant Garamond', Georgia, serif",
-                  fontSize: "1.5rem",
-                  letterSpacing: "0.08em",
-                  fontWeight: 300,
-                  fontStyle: "italic",
+                  fontFamily: "'Josefin Sans', sans-serif",
+                  fontSize: "0.95rem",
+                  letterSpacing: "0.12em",
+                  fontWeight: 700,
                 }}
               >
-                Casa Tua
+                CASA TUA
               </span>
             </span>
           </a>
