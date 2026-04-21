@@ -77,10 +77,11 @@ export default function Hero() {
         muted
         loop
         playsInline
-        onCanPlayThrough={() => setVideoReady(true)}
+        onCanPlay={() => setVideoReady(true)}
         onPlaying={() => {
           if (!videoReady) setVideoReady(true);
         }}
+        poster="/hero-poster.jpg"
         className="absolute inset-0 h-full w-full object-cover"
         style={{
           opacity: 0,
@@ -89,7 +90,7 @@ export default function Hero() {
           willChange: "transform, opacity",
         }}
       >
-        <source src="/hero-video.mp4" type="video/mp4" />
+        <source src="/hero-video-compressed.mp4" type="video/mp4" />
       </video>
 
       <div
