@@ -91,7 +91,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
             >
               კაზა ტუა
             </span>
-            <span style={{ fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
+            <span style={{ fontFamily: "sans-serif", fontSize: "3rem", lineHeight: 1 }}>·</span>
             <span
               style={{
                 fontFamily: "'Madimi One', sans-serif",
