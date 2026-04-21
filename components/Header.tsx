@@ -86,7 +86,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
               style={{
                 fontFamily: "'Dachi Lynx', 'AR Archy', serif",
                 fontSize: "0.85rem",
-                letterSpacing: "0.02em",
+                letterSpacing: "0.01em",
               }}
             >
               კაზა ტუა
