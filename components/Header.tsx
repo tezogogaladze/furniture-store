@@ -94,7 +94,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
             <span style={{ fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
             <span
               style={{
-                fontFamily: "'Nunito', sans-serif",
+                fontFamily: "'Madimi One', sans-serif",
                 fontSize: "1.05rem",
                 letterSpacing: "0.03em",
                 fontWeight: 800,
