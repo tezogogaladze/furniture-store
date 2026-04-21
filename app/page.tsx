@@ -9,9 +9,7 @@ import ShopTabs from "@/components/ShopTabs";
 import EditorialBlock from "@/components/EditorialBlock";
 import ProductGrid from "@/components/ProductGrid";
 import TrustRow from "@/components/TrustRow";
-import Marquee from "@/components/Marquee";
 import Testimonials from "@/components/Testimonials";
-import PressLogos from "@/components/PressLogos";
 import InstagramGrid from "@/components/InstagramGrid";
 import Footer from "@/components/Footer";
 import SearchOverlay from "@/components/SearchOverlay";
@@ -47,9 +45,7 @@ export default function Home() {
           <EditorialBlock />
           <ProductGrid />
           <TrustRow />
-          <Marquee />
           <Testimonials />
-          <PressLogos />
           <InstagramGrid />
           <Footer />
         </div>
