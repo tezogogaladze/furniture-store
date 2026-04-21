@@ -100,7 +100,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
                 fontWeight: 800,
               }}
             >
-              Casa Tua
+              CASA TUA
             </span>
           </a>
 
