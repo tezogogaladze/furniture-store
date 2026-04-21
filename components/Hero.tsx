@@ -135,7 +135,9 @@ export default function Hero() {
         >
           თქვენი სახლი
           <br />
-          იწყება სწორად შერჩეული ავეჯით.
+          იწყება სწორად
+          <br />
+          შერჩეული ავეჯით.
         </h1>
 
         <div ref={ctaRef} className="mt-10" style={{ opacity: 0 }}>
