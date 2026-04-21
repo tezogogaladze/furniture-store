@@ -18,9 +18,13 @@ export default function SectionIntro() {
           className="reveal-child heading mt-6 text-center"
           style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}
         >
-          ჩვენ ვეხმარებით ადამიანებს შექმნან სივრცე,
+          ჩვენ ვეხმარებით ადამიანებს 
           <br />
-          სადაც კომფორტი და დიზაინი ერთიანდება.
+          შექმნან სივრცე,
+          <br />
+          სადაც კომფორტი და 
+          <br />
+          დიზაინი ერთიანდება.
         </h2>
         <p
           className="reveal-child mt-8 text-center"
