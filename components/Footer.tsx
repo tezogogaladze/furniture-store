@@ -56,11 +56,11 @@ export default function Footer() {
           <div className="footer-col">
             <div className="flex items-center gap-2">
               <span style={{ display: "flex", alignItems: "baseline", gap: "0.35rem" }}>
-                <span style={{ fontFamily: "'Dachi Lynx', 'AR Archy', serif", fontSize: "1.05rem", letterSpacing: "0.02em" }}>
+                <span style={{ fontFamily: "'Dachi Lynx', 'AR Archy', serif", fontSize: "0.85rem", letterSpacing: "0.02em" }}>
                   კაზა ტუა
                 </span>
-                <span style={{ opacity: 0.6, fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
-                <span style={{ fontFamily: "'Nunito', sans-serif", fontSize: "1.05rem", letterSpacing: "0.03em", fontWeight: 800 }}>
+                <span style={{ fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
+                <span style={{ fontFamily: "'Nunito', sans-serif", fontSize: "1.25rem", letterSpacing: "0.03em", fontWeight: 800 }}>
                   Casa Tua
                 </span>
               </span>
