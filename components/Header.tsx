@@ -85,19 +85,19 @@ export default function Header({ onSearchOpen }: HeaderProps) {
             <span
               style={{
                 fontFamily: "'Dachi Lynx', 'AR Archy', serif",
-                fontSize: "1.1rem",
+                fontSize: "1.05rem",
                 letterSpacing: "0.02em",
               }}
             >
               კაზა ტუა
             </span>
-            <span style={{ opacity: 0.3, fontFamily: "'Josefin Sans', sans-serif", fontSize: "0.85rem", fontWeight: 600 }}>·</span>
+            <span style={{ opacity: 0.6, fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
             <span
               style={{
-                fontFamily: "'Josefin Sans', sans-serif",
-                fontSize: "0.9rem",
-                letterSpacing: "0.1em",
-                fontWeight: 600,
+                fontFamily: "'Nunito', sans-serif",
+                fontSize: "1.05rem",
+                letterSpacing: "0.03em",
+                fontWeight: 800,
               }}
             >
               Casa Tua
