@@ -18,18 +18,15 @@ export default function SectionIntro() {
           className="reveal-child heading mt-6 text-center"
           style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}
         >
-          ცხოვრება უკეთესია,
+          ჩვენ ვეხმარებით ადამიანებს შექმნან სივრცე,
           <br />
-          როცა შენს სახლს უყვარხარ.
+          სადაც კომფორტი და დიზაინი ერთიანდება.
         </h2>
         <p
           className="reveal-child mt-8 text-center"
           style={{ color: "var(--color-earth-muted)", lineHeight: 1.8 }}
         >
-          ჩვენ ვქმნით მშვენიერ ავეჯს ნამდვილი ცხოვრებისთვის. ჩვენი
-          თანამედროვე ნაწარმი არის თბილი და მყუდრო, სახლში გატარებული დრო კი
-          — უფრო მშვიდი და სასიამოვნო. ისინი გაძლევენ იმ იერსახეს, რომელიც
-          გსურთ — და ამავდროულად ფუნქციურნიც არიან.
+          თითოეული პროდუქტი შერჩეულია კომფორტისა და ვიზუალური ბალანსის მიხედვით.
         </p>
         <div className="reveal-child mt-10 text-center">
           <a
