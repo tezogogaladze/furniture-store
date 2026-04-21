@@ -54,15 +54,13 @@ export default function Footer() {
       <div className="site-container">
         <div className="grid-footer">
           <div className="footer-col">
-            <div className="flex items-center gap-2">
-              <span style={{ display: "flex", alignItems: "baseline", gap: "0.35rem" }}>
-                <span style={{ fontFamily: "'Dachi Lynx', 'AR Archy', serif", fontSize: "0.85rem", letterSpacing: "0.02em" }}>
-                  კაზა ტუა
-                </span>
-                <span style={{ fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>·</span>
-                <span style={{ fontFamily: "'Madimi One', sans-serif", fontSize: "1.25rem", letterSpacing: "0.03em" }}>
-                  CASA TUA
-                </span>
+            <div className="flex items-baseline gap-2">
+              <span style={{ fontFamily: "'Dachi Lynx', 'AR Archy', serif", fontSize: "0.85rem", letterSpacing: "0.01em" }}>
+                კაზა ტუა
+              </span>
+              <span style={{ fontFamily: "sans-serif", fontSize: "1rem", lineHeight: 1 }}>•</span>
+              <span style={{ fontFamily: "'Madimi One', sans-serif", fontSize: "1.05rem", letterSpacing: "0.03em", fontWeight: 800 }}>
+                CASA TUA
               </span>
             </div>
             <p
