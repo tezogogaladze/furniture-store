@@ -55,9 +55,15 @@ export default function Footer() {
         <div className="grid-footer">
           <div className="footer-col">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="Casa Tua logo" style={{ height: 32, width: "auto" }} />
-              <span className="heading" style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}>
-                კაზა ტუა <span style={{ opacity: 0.4 }}>•</span> Casa Tua
+              <img src="/logo.png" alt="Casa Tua logo" style={{ height: 32, width: "auto", filter: "invert(1)" }} />
+              <span style={{ display: "flex", alignItems: "baseline", gap: "0.3rem" }}>
+                <span className="heading" style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}>
+                  კაზა ტუა
+                </span>
+                <span style={{ opacity: 0.35, fontFamily: "system-ui, sans-serif", fontSize: "0.9rem" }}>·</span>
+                <span style={{ fontFamily: "system-ui, -apple-system, sans-serif", fontSize: "0.95rem", letterSpacing: "0.06em", fontWeight: 400 }}>
+                  Casa Tua
+                </span>
               </span>
             </div>
             <p

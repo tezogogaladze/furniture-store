@@ -88,15 +88,28 @@ export default function Header({ onSearchOpen }: HeaderProps) {
               style={{
                 height: 36,
                 width: "auto",
-                filter: scrolled ? "invert(0)" : "invert(1)",
+                filter: scrolled ? "invert(1)" : "invert(0)",
                 transition: "filter 500ms var(--ease-cinematic)",
               }}
             />
-            <span
-              className="heading"
-              style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}
-            >
-              კაზა ტუა <span style={{ opacity: 0.4 }}>•</span> Casa Tua
+            <span style={{ display: "flex", alignItems: "baseline", gap: "0.3rem" }}>
+              <span
+                className="heading"
+                style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}
+              >
+                კაზა ტუა
+              </span>
+              <span style={{ opacity: 0.35, fontFamily: "system-ui, sans-serif", fontSize: "0.9rem" }}>·</span>
+              <span
+                style={{
+                  fontFamily: "system-ui, -apple-system, sans-serif",
+                  fontSize: "0.95rem",
+                  letterSpacing: "0.06em",
+                  fontWeight: 400,
+                }}
+              >
+                Casa Tua
+              </span>
             </span>
           </a>
 
