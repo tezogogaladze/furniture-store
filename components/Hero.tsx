@@ -137,7 +137,7 @@ export default function Hero() {
           <br />
           იწყება სწორად
           <br />
-          შერჩეული ავეჯით.
+          შერჩეული ავეჯით
         </h1>
 
         <div ref={ctaRef} className="mt-10" style={{ opacity: 0 }}>
