@@ -95,7 +95,7 @@ export default function Header({ onSearchOpen }: HeaderProps) {
             <span
               style={{
                 fontFamily: "'Nunito', sans-serif",
-                fontSize: "1.25rem",
+                fontSize: "1.05rem",
                 letterSpacing: "0.03em",
                 fontWeight: 800,
               }}
