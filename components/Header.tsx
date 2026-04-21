@@ -77,8 +77,27 @@ export default function Header({ onSearchOpen }: HeaderProps) {
         }}
       >
         <nav className="site-container flex h-16 items-center justify-between px-6">
-          <a href="/" className="heading" style={{ fontSize: "1.6rem" }}>
-            ავეჯის სივრცე
+          <a
+            href="/"
+            className="flex items-center gap-2"
+            style={{ textDecoration: "none" }}
+          >
+            <img
+              src="/logo.png"
+              alt="Casa Tua logo"
+              style={{
+                height: 36,
+                width: "auto",
+                filter: scrolled ? "invert(0)" : "invert(1)",
+                transition: "filter 500ms var(--ease-cinematic)",
+              }}
+            />
+            <span
+              className="heading"
+              style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}
+            >
+              კაზა ტუა <span style={{ opacity: 0.4 }}>•</span> Casa Tua
+            </span>
           </a>
 
           {!isMobile && (

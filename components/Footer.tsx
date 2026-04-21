@@ -54,9 +54,12 @@ export default function Footer() {
       <div className="site-container">
         <div className="grid-footer">
           <div className="footer-col">
-            <span className="heading" style={{ fontSize: "1.75rem" }}>
-              ავიეჯი
-            </span>
+            <div className="flex items-center gap-2">
+              <img src="/logo.png" alt="Casa Tua logo" style={{ height: 32, width: "auto" }} />
+              <span className="heading" style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}>
+                კაზა ტუა <span style={{ opacity: 0.4 }}>•</span> Casa Tua
+              </span>
+            </div>
             <p
               className="mt-4"
               style={{
