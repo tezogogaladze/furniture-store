@@ -79,19 +79,9 @@ export default function Header({ onSearchOpen }: HeaderProps) {
         <nav className="site-container flex h-16 items-center justify-between px-6">
           <a
             href="/"
-            className="flex items-center gap-2"
+            className="flex items-baseline gap-2"
             style={{ textDecoration: "none" }}
           >
-            <img
-              src="/logo.png"
-              alt="Casa Tua logo"
-              style={{
-                height: 54,
-                width: "auto",
-                filter: scrolled ? "invert(1)" : "invert(0)",
-                transition: "filter 500ms var(--ease-cinematic)",
-              }}
-            />
             <span
               style={{
                 fontFamily: "'Dachi Lynx', 'AR Archy', serif",
@@ -100,6 +90,17 @@ export default function Header({ onSearchOpen }: HeaderProps) {
               }}
             >
               კაზა ტუა
+            </span>
+            <span style={{ opacity: 0.3, fontFamily: "'Josefin Sans', sans-serif", fontSize: "0.85rem", fontWeight: 600 }}>·</span>
+            <span
+              style={{
+                fontFamily: "'Josefin Sans', sans-serif",
+                fontSize: "0.9rem",
+                letterSpacing: "0.1em",
+                fontWeight: 600,
+              }}
+            >
+              Casa Tua
             </span>
           </a>
 

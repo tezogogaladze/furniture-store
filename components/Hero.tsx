@@ -106,13 +106,22 @@ export default function Hero() {
         className="relative z-10 px-6 text-center"
         style={{ maxWidth: 900 }}
       >
-        <span
+        <div
           ref={labelRef}
-          className="label-geo inline-block"
-          style={{ color: "rgba(255,255,255,0.7)", opacity: 0 }}
+          className="inline-block"
+          style={{ opacity: 0 }}
         >
-          დაარსდა 2017 &mdash; თბილისი
-        </span>
+          <img
+            src="/logo.png"
+            alt="Casa Tua"
+            style={{
+              height: 72,
+              width: "auto",
+              filter: "invert(0)",
+              opacity: 0.85,
+            }}
+          />
+        </div>
 
         <h1
           ref={headingRef}
