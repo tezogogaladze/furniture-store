@@ -9,7 +9,7 @@ export default function Hero() {
   const overlayRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
-  const labelRef = useRef<HTMLSpanElement>(null);
+  const labelRef = useRef<HTMLDivElement>(null);
   const [videoReady, setVideoReady] = useState(false);
 
   useEffect(() => {
