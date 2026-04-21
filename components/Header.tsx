@@ -86,26 +86,27 @@ export default function Header({ onSearchOpen }: HeaderProps) {
               src="/logo.png"
               alt="Casa Tua logo"
               style={{
-                height: 36,
+                height: 54,
                 width: "auto",
                 filter: scrolled ? "invert(1)" : "invert(0)",
                 transition: "filter 500ms var(--ease-cinematic)",
               }}
             />
-            <span style={{ display: "flex", alignItems: "baseline", gap: "0.3rem" }}>
+            <span style={{ display: "flex", alignItems: "baseline", gap: "0.4rem" }}>
               <span
                 className="heading"
-                style={{ fontSize: "1.1rem", letterSpacing: "0.02em" }}
+                style={{ fontSize: "1.65rem", letterSpacing: "0.02em" }}
               >
                 კაზა ტუა
               </span>
-              <span style={{ opacity: 0.35, fontFamily: "system-ui, sans-serif", fontSize: "0.9rem" }}>·</span>
+              <span style={{ opacity: 0.3, fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: "1.3rem", fontWeight: 300 }}>·</span>
               <span
                 style={{
-                  fontFamily: "system-ui, -apple-system, sans-serif",
-                  fontSize: "0.95rem",
-                  letterSpacing: "0.06em",
-                  fontWeight: 400,
+                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontSize: "1.5rem",
+                  letterSpacing: "0.08em",
+                  fontWeight: 300,
+                  fontStyle: "italic",
                 }}
               >
                 Casa Tua
